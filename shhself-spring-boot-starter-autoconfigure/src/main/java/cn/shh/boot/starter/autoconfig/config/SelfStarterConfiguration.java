@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableConfigurationProperties(SelfStarterProperties.class)
 public class SelfStarterConfiguration {
-
     @ConditionalOnMissingBean(HelloService.class)
     @Bean
     public HelloService helloService(){

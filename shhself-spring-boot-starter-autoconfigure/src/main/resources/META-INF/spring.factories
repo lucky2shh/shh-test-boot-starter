@@ -1,3 +1,0 @@
-# Auto Configure
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-cn.shh.boot.starter.autoconfig.config.SelfStarterConfiguration
